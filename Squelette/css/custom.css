@@ -1,12 +1,143 @@
 /* Vos customisations des classes de Bootstrap */
 
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+
+nav {
+  height: 35px;
+
+  background-color: #222222;
+}
+
+nav>div a {
+  font-size: 11px;
+
+}
+
+nav img {
+  object-fit: contain;
+  width: 140px;
+}
+
+
+#home h1 {
+  font-family: Arvo;
+}
+
+#home{
+  background-image: url(/bootstrap-onemillionlines/Squelette/images/hero-image.jpg);
+  background-size: cover;
+  /* height: 450px; */
+}
+
+#home>button {
+  display: block;
+  /* margin: auto; */
+  font-weight: 500;
+  background-color: #f74c3c;
+  border: none;
+  border-radius: 5px;
+}
+
+#home>img {
+  object-fit: contain;
+
+}
+
+#home>p {
+  /* width: 800px; */
+  margin: auto;
+}
+
+#who h3 {
+  color: #f74c3c;
+  font-family: Arvo;
+  font-weight: 600;
+  /* width: 250px; */
+
+  border-bottom: 1px solid #f74c3c;
+}
+
+#who p {
+  width: 920px;
+}
+
+#who p span {
+  color: #f74c3c;
+}
+
+#who img{
+  width: 140px;
+}
+
+#get-involved {
+  background-color: #f5f5f5;
+}
+
+#get-involved>h3 {
+  font-family: Arvo;
+  color: #f74c3c;
+  font-weight: 700;
+}
+
+#get-involved>div div h3 {
+  font-family: Arvo;
+  color: #f74c3c;
+}
+
+#get-involved>div div button {
+  border: 1px solid #beb6b6;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+/* #get-involved>div div p{
+  font-size: 14px;
+  width: 80%;
+} */
+
+footer {
+  height: 195px;
+  background-color: #f74c3c;
+
+
+}
+
+
+footer img{ 
+  width: 70%;
+}
+
+.arrow-up-circle-fill {
+  width: 40px;
+  position: fixed;
+  bottom: 250px;
+  right: 10px;
+  
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
 /* Responsive Styling */
 
 @media (max-width: 1199px) {
-
+  /* #home p {
+    font-size: 700px;
+  } */
 }
 
 @media (max-width: 991px) {
